@@ -1,0 +1,19 @@
+{
+  "name": "sunnee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "verify": "npm run tsc app.ts",
+    "live": "node app.js"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Antonio Naccarella",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.4.5"
+  }
+}
